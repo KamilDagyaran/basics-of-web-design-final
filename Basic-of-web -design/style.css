@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(244, 254, 100);
+}
+.liste1  {
+display: inline-block;
+    width: 100%;
+    height: 60;
+    margin-left: -10px;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 23px; 
+  
+}
+
+i{
+    padding-right: 10px;
+}
+
+.sosyal{
+    font-size:40px ;
+
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;}
+.liste1 a:hover {
+  color:  rgb(39, 246, 2);
+transition:1s ;
+transform: rotate()
+}
+
+
+.liste1 a:hover #kutu1{
+    display: block;
+
+}
+#kutu1{
+    display: none;
+
+}
