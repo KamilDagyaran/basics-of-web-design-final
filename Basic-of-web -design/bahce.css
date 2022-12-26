@@ -4,15 +4,19 @@
 }
 
 body {
-    background-color: rgb(27, 26, 26);;
+    /**background-image: url(https://i.pinimg.com/564x/31/fa/f8/31faf8b61ff39a1027591256d441c837.jpg);**/
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-color:  rgb(27, 26, 26);
 }
 
+body h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 110px;
+}
 nav ul {
     border: 2px solid white;
-    border-radius: 0 0 60px 0 ;
+    border-radius: 0 0 60px 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -85,6 +89,7 @@ font-size: 40px;
 
 
 footer{
+    
     width: 100%;
     height: 25vh;
     background-color: rgb(27, 26, 26);
@@ -107,7 +112,7 @@ footer p{
 }
 .üstresim{
     background-size: cover;
-    border-radius: 0 40px 0 0;
+    border-radius: 40px;
     background-image: url(https://i.pinimg.com/564x/02/ec/90/02ec90db4455ec35f2357566cb3ad176.jpg);
     height: 200px;
     width:100%;
@@ -116,104 +121,117 @@ footer p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav2 ul {
   list-style: none; /* liste işaretlerini kaldır */
   margin: 0; /* liste elemanlarının margin değerlerini sıfırla */
   padding: 0; /* liste elemanlarının padding değerlerini sıfırla */
+
 }
 
 .nav2 li {
   width: 100%; /* nav barın tüm genişliğini kullan */
-  height: 50px; /* her bir liste elemanının yüksekliği */
+  height: 49px; /* her bir liste elemanının yüksekliği */
   background-color: black; /* nav barın arka plan rengi */
   line-height: 50px; /* yazının satır yüksekliği */
   text-align: center; /* yazıyı nav barın ortasına hizala */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .nav2 li a {
   color: #fff; /* nav barın yazı rengi */
   text-decoration: none; /* nav bar yazılarının altındaki çizgiyi kaldır */
   display: block; /* nav bar yazılarının tamamen tıklama alanı olmasını sağlar */
-  
 }
 
 .nav2 li a:hover {
-  background-color: rgba(17, 239, 25, 0.495); /* fare nav bar yazısı üzerindeyken arka plan rengini değiştir */
+  background-color: rgba(248, 6, 6, 0.495); /* fare nav bar yazısı üzerindeyken arka plan rengini değiştir */
 }
 #navdiv{
-    width: 302px; 
+    margin-top: 10px;
+    width: 250px; 
   background-color:  rgb(27, 26, 26);
   color: #fff; 
   font-size: 16px; 
-  border-radius: 10px;
+ display:inline-block;
+    position: sticky;
+    top: 0;
+    
+ 
+
 }
-#iletişim {
-    background-color: #f4f4f4;
-  }
-  
-  .iletkutu {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  #iletişim h2 {
-    font-size: 22px;
+#navdiv a{
+    border-radius: 50px;
+        
+      
+     
+}
+.resimkutu div{
+   border: 3px solid white;
+    width: 400px;
+    height: 400px;
+    display:inline-block;
+    margin-top:20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.resimkutu{margin-left:280px 
+} 
+.resimkutu p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(142, 44, 44);
+    color: #fff;
+    font-size: 27px;
+    margin-top: 10px;
+    border: 4px solid black;
+    border-radius: 14px;
+    margin-right: 11px;
+   text-align: center;
+
+
+}
+.resimkutu div:hover{
+    transform: scale(1.1);}
+
+.ürünresim{
+    border: #fff solid 3px ;
+    border-radius: 15px;
+    margin-left:55px;
+    background-image: url(https://i.pinimg.com/564x/e3/cd/be/e3cdbe274a9f267999b3ae09387424a0.jpg);
+    width: 250px;
+    height:300px;
+    display: inline-block;
+    margin-top: 20px;
     text-align: center;
-    margin-bottom: 20px;
-  
-  }
-  
-  .iletbilgi {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .iletişimöge {
-    display: flex;
-    align-items: center;
-  }
-  
-  .iletişimöge i {
-    font-size: 18px;
-    margin-right: 10px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .formgrubu label {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  .formgrubu input,
-  .formgrubu textarea {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  .formgrubu textarea {
-    height: 150px;
-  }
-  
+    
+}
+
+    
+.içresim{ 
+    margin: auto;
+   
+     width: 240px;
+     height: 220px ;
+     margin-top: 5px;
+     border-radius: 20px;
+     background-size: cover;
+  border: 3px solid white;
+     background-repeat:no-repeat;
+     transition: 1s;
+     
+}
+#ürünkutudışdiv p{font-size: 25px;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.içresim:hover{
+transform: scale(1.1);
+}
+    

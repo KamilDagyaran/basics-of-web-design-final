@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    /**background-image: url(https://i.pinimg.com/564x/31/fa/f8/31faf8b61ff39a1027591256d441c837.jpg);**/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  rgb(27, 26, 26);
+}
+
+body h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 110px;
+}
+nav ul {
+    border: 2px solid white;
+    border-radius: 0 0 60px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 23px;
+    list-style: none;
+}
+
+i {
+    padding-right: 10px;
+}
+
+.sosyal {
+    font-size: 40px;
+
+
+}
+
+.sosyal:hover{
+    color: rgb(0, 145, 255);
+}
+.redsosyal:hover{
+    color: red;
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.redsosyal{
+font-size: 40px;
+}
+.liste1 a:hover {
+    color: rgba(17, 239, 25, 0.495);
+    transform: rotateZ(720deg);
+
+}
+
+
+
+
+
+
+.kutu1 {
+    margin-top: 50x;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 8px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: 65px;
+    transition:0.5s;
+}
+.kutu1:hover{
+
+    transform: scale(1.1);
+    
+}
+
+
+footer{
+    
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+    padding: 0 10% 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fotlogo{
+    
+    padding-top: 20px;
+    font-size: 30px;
+}
+.üstresim{
+    background-size: cover;
+    border-radius: 40px;
+    background-image: url(https://i.pinimg.com/564x/02/ec/90/02ec90db4455ec35f2357566cb3ad176.jpg);
+    height: 200px;
+    width:100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+.nav2 ul {
+  list-style: none; /* liste işaretlerini kaldır */
+  margin: 0; /* liste elemanlarının margin değerlerini sıfırla */
+  padding: 0; /* liste elemanlarının padding değerlerini sıfırla */
+
+}
+
+.nav2 li {
+  width: 100%; /* nav barın tüm genişliğini kullan */
+  height: 56px; /* her bir liste elemanının yüksekliği */
+  background-color: black; /* nav barın arka plan rengi */
+  line-height: 50px; /* yazının satır yüksekliği */
+  text-align: center; /* yazıyı nav barın ortasına hizala */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav2 li a {
+  color: #fff; /* nav barın yazı rengi */
+  text-decoration: none; /* nav bar yazılarının altındaki çizgiyi kaldır */
+  display: block; /* nav bar yazılarının tamamen tıklama alanı olmasını sağlar */
+}
+
+.nav2 li a:hover {
+  background-color: rgba(248, 6, 6, 0.495); /* fare nav bar yazısı üzerindeyken arka plan rengini değiştir */
+}
+#navdiv{
+    margin-top: 10px;
+    width: 250px; 
+  background-color:  rgb(27, 26, 26);
+  color: #fff; 
+  font-size: 16px; 
+ display:inline-block;
+    position: sticky;
+    top: 0;
+ 
+}
+#navdiv a{
+    border-radius: 50px;
+        
+      
+     
+}
+.resimkutu div{
+   border: 3px solid white;
+    width: 400px;
+    height: 400px;
+    display:inline-block;
+    margin-top:20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.resimkutu{margin-left:280px 
+} 
+.resimkutu p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(142, 44, 44);
+    color: #fff;
+    font-size: 27px;
+    margin-top: 10px;
+    border: 4px solid black;
+    border-radius: 14px;
+    margin-right: 11px;
+   text-align: center;
+
+
+}
+.resimkutu div:hover{
+    transform: scale(1.1);}
+
+.ürünresim{
+    border: #fff solid 3px ;
+    border-radius: 15px;
+    margin-left:55px;
+    background-image: url(https://i.pinimg.com/564x/e3/cd/be/e3cdbe274a9f267999b3ae09387424a0.jpg);
+    width: 250px;
+    height:300px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+    
+.içresim{ 
+    margin: auto;
+   
+     width: 240px;
+     height: 220px ;
+     margin-top: 5px;
+     border-radius: 20px;
+     background-size: cover;
+  border: 3px solid white;
+     background-repeat:no-repeat;
+     transition: 1s;
+     
+}
+#ürünkutudışdiv p{font-size: 25px;
+    display: flexbox;
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.içresim:hover{
+transform: scale(1.1);
+}
+#fiat {
+    display: inline-block;
+   color: rgb(42, 0, 170);
+
+
+}
+#fiat a{
+    display: block;
+   color: rgb(42, 0, 170);
+
+   .bitkinav2{
+   
+    margin-top: 10px;
+    
+   }
+}
+.bitkinav2 li{
+  margin-top: 35px;
+    width: 100%; /* nav barın tüm genişliğini kullan */
+    height: 100px; /* her bir liste elemanının yüksekliği */
+    
+    line-height: 50px; /* yazının satır yüksekliği */
+    text-align: center; /* yazıyı nav barın ortasına hizala */
+    font-size: 60px;
+    transition: 1s;
+}
+.bitkinav2 li a:hover{
+    color:rgb(0, 255, 30);
+   
+    
+} 
+#navdiv2{
+
+    height:550px;
+    margin-top: 35px;
+    width: 250px; 
+ border-radius: 100px;
+  color: #fff; 
+  font-size: 16px; 
+ display:inline-block;
+    position: sticky;
+    top: 20px;
+    background-color: rgb(0, 0, 0); /* nav barın arka plan rengi */
+    
+   
+}
+.bakımkutu{ 
+    
+    margin-top: -545px;
+    margin-left: 285px;
+    width: 1200px;
+    height: auto ;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+   
+
+}
+.bakımkutu p{ margin-top: 30px;
+font-size: 25px;
+background-color: aliceblue;
+border-radius:10px ;
+text-align: center;
+
+
+}
+.bakımkutu ul li {
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: aliceblue;
+     margin-left: 25px;
+}
