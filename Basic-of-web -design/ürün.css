@@ -242,7 +242,7 @@ transform: scale(1.1);
     display: block;
    color: rgb(42, 0, 170);
 
-   .bitkinav2{
+   .bitkinav2 {
    
     margin-top: 10px;
     
@@ -304,3 +304,22 @@ text-align: center;
     background-color: aliceblue;
      margin-left: 25px;
 }
+@media only screen and (max-width:1400px){ 
+    .liste1 li {
+      font-size:25px ;
+    }
+    .liste1 i {
+      display:none;
+    }
+  }
+  @media only screen and (max-width:800px){ 
+    .liste1 li:nth-child(2),
+    .liste1 li:nth-child(3),
+    .liste1 li:nth-child(4) 
+      {
+   display:none;
+   justify-content: center;
+    }
+  }
+  
+ 

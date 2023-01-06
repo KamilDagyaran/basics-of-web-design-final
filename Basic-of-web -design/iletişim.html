@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
+<script src="script.js"   >     </script>
+= 
+
+
 
 <body>
     <nav>
@@ -22,13 +26,13 @@
                         class="fa-solid fa-envelope"></i>İletişim</a></li>
             <li style="padding-left: 20px;"> <a href="hakkımızda .html"><i
                         class="fa-solid fa-circle-info"></i>Hakkımızda</a></li>
-            <li  style="padding-left: 75px; ;"> <a href="https://www.twitter.com/"><i
-                        class="fa-brands fa-twitter sosyal  "></i></a></li>
-            <li  style="padding-left: 10px;"> <a href="https://www.youtube.com/"><i
-                        class="fa-brands fa-youtube redsosyal "></i></a></li>
-            <li  style="padding-left: 10px;"> <a href="https://www.facebook.com/"><i
-                        class="fa-brands fa-facebook sosyal"></i></a></li>
-        </ul>
+                        <li  style="padding-left: 75px; ;"> <a target="_blank" href="https://www.twitter.com/"><i
+                          class="fa-brands fa-twitter sosyal  "></i></a></li>
+              <li  style="padding-left: 10px;"> <a target="_blank" href="https://www.youtube.com/"><i
+                          class="fa-brands fa-youtube redsosyal "></i></a></li>
+              <li  style="padding-left: 10px;"> <a target="_blank" href="https://www.facebook.com/"><i
+                          class="fa-brands fa-facebook sosyal"></i></a></li>
+          </ul>
 
 
 
@@ -60,7 +64,8 @@
             </div>
             <div class="iletişimöge">
               <i class="fas fa-envelope"></i>
-              <span>info@bahçemix.com</span>
+              <span><label for="email">info@bahçemix.com </label></span>
+        
             </div>
           </div>
           <form action="#" method="post">
@@ -76,7 +81,7 @@
               <label for="mesaj">Mesaj</label>
               <textarea id="mesaj" name="mesaj" required></textarea>
             </div>
-            <button type="submit" class="btn">Gönder</button>
+            <button onclick="Gonder()" type="submit" class="btn">Gönder</button>
           </form>
         </div>
       </section>

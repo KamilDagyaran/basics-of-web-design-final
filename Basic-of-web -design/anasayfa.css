@@ -134,3 +134,24 @@
    
     color:rgb(187, 8, 8);
 }
+@media only screen and (max-width:1400px){ 
+  .liste1 li {
+    font-size:25px ;
+  }
+  .liste1 i {
+    display:none;
+  }
+}
+@media only screen and (max-width:800px){ 
+  .liste1 li:nth-child(2),
+  .liste1 li:nth-child(3),
+  .liste1 li:nth-child(4) 
+    {
+ display:none;
+ justify-content: center;
+  }
+}
+
+.sosyal a{
+  target:blank
+}
